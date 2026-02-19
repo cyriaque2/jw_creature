@@ -1,0 +1,97 @@
+(Edmontoguanodon) 3 (Edmontosaure) (Iguanodon)
+(Quetzalcoatlus_Gén2) 3
+(Argenteryx) 3 (Archaeopteryx) (Argentavis)
+(Dimodactylus) 3 (Tupandatylus) (Dimorphodon)
+(Mégalogaia) 3 (Mégalocéros) (Miragaia)
+(Brontolasmus) 3 (Elasmotherium) (Brontothère)
+(Protocératops) 3
+(Scutosaurus) 3
+(Animantarx) 3
+(Baryothus) 3 (Baryonyx_Leucistique) (Dreadnoughtus)
+(Brunette) 3
+(Dakotaraptor) 3
+(Megalotops) 3 (Megalonyx) (Nasutocratops)
+(Beelzebufo) 3
+(Aerotitan) 3
+(Koolasuchus) 3
+(Erlikosaure) 3
+(Sécodontosaure) 3
+(Saurolyth) 3 (Sauronitholestes) (Purrolythe)
+(Deinotops) 3 (Deinosuchus) (Arctops)
+(Rinchenia) 3
+(Andrewtodon) 3 (Andrewsarchus) (Glyptodon)
+(Ampelosaure) 3
+(Blonde) 3
+(Ailurarctos) 3
+(Gorgosuchus) 3 (Gorgosaure) (Karposuchus)
+(Erlikogamma) 3 (Erlikoasure) (Charlie)
+(Stegoceras) 3
+(Brachiosaure) 3
+(Nodopatosaure) 3 (Apatosaure) (Nodosaure)
+(Mammouth Laineux) 3
+(Ankylodicurus) 3 (Doedicurus) (Ankylocodon)
+(Majundaboa) 3 (Titanoboa_Gén2) (Majundasuchus)
+(Smilodon) 3
+(Oviraptor_Gén2) 3
+(Diplodocus) 3
+(Moros Intrepidus) 3
+(Maiasaura) 3
+(Struthiomimus) 3
+(Concavenator) 3
+(Ghost) 3
+(Ouranosaure) 3
+(Stégocératops) 3 (Tricératops) (Stégosaure)
+(Spinosaure_Gén2) 3
+(Procérathomimus) 3 (Procératosaure) (Ornithomimus)
+(Sinocératops) 3
+(Tsintaosaurus) 3
+(Alanqa) 3
+(Carbonemys) 3
+(Acrocanthosorus) 3
+(Ptéranodon) 3
+(Titanosaurus) 3
+(Gigantspinosaurus) 3
+(Pachycéphalosaure) 3
+(Sarcorixis) 3 (Sarcosuchus) (Einasuchus)
+(Spinotahraptor) 3 (Spinosaurus) (Utahraptor)
+(Kentrosaure) 3
+(Darwinopterus) 3
+(Dodo) 3
+(Aigle_de_Haast) 3
+(Anurognathus) 3
+(Eucladoceros) 3
+(Edaphosaurus) 3
+(Lystrosaurus) 3
+(Compsognathus) 3
+(Sonorasaurus) 3
+(Troodon) 3
+(Megistotherium) 3
+(Ankylosaure) 3
+(Amargocephalus) 3 (Amargasaure) (Euoplocephalus)
+(Rajasaure) 3
+(Titanoboa) 3
+(Indominus-Rex_Gén2) 3 (T-Rex_Gén2) (Echo)
+(Purutaurus) 3 (Carnotaure) (Purussaurus)
+(Monolophosaure) 3
+(Tyrannosaure) 3
+(Baryonyx) 3
+(Antarctopelta) 3
+(Stygimoloch) 3
+(Blue) 3
+(Pyroraptor) 3
+(Pulmonoscorpius) 3
+(Posimetrodon) 3 (Postosuchus) (Dimétrodon)
+(Microraptor) 3
+(Thylacotator) 3 (Lion_Marsupial) (Suchotator)
+(Allosaure_Gén2) 3
+(Bumpy) 3
+(Beta) 3
+(Scorpios-Rex_Gén2) 3 (Monolophosaure_Gén2) (Carnotaure)
+(Gryposuchus) 3
+(Panthera) 3
+(Tiger) 3
+(Red) 3
+(Giganotosaurus) 3
+(Aquilamimus) 3 (Gallimimus) (Aigle_de_Haast_Gén2)
+(Rhino_Laineux) 3
+(Entélochops) 3 (Moschops) (Entélodonte)

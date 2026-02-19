@@ -1,0 +1,15 @@
+(Estemmenosuchus) 5
+(Monkeyondactylus) 5 (Monkeydactyl) (Ankylodactylus)
+(Grypolythe) 5 (Gryposuchus) (Purrolythe)
+(Giganyx) 5 (Giganotosaurus) (Tryostronix)
+(Pantherator) 5 (Panthera_Blytheae) (Thylacotator)
+(Constrictoraptor) 5 (Dilophoboa) (Panthera)
+(Styracosaurus_Lux) 5
+(Dracovenator) 5
+(Artocodistis) 5 (Red) (Targodistis)
+(Nomingia) 5
+(Ceratosaurus) 5
+(Andrewtops) 5 (Andrewtodon) (Arctops)
+(Junior) 5 (Tyrannosaure_Buck) (Tyrannosaure_Doe)
+(Indoraptor) 5 (Indominus-Rex_Gén2) (Vélociraptor)
+(Atrocimoloch) 5 (Tiger) (Paramoloch)

@@ -1,0 +1,83 @@
+(Skorpiovenator) 2
+(Deinotherium) 2
+(Koolasuchus) 2
+(Erlikoasure) 2
+(Inostherium) 2 (Inostrancevia) (Archaeotherium)
+(Scaphognathus) 2
+(kelenken) 2
+(Dsungaripterus) 2
+(Aigle_de_Haast_Gén2) 2
+(Baryonyx_Leucistique) 2
+(Elasmotherium) 2
+(Oviraptor) 2
+(Karposuchus) 2
+(Echo) 2
+(Nodosaure) 2
+(Edmontosaure) 2
+(Postosuchus) 2
+(Purussaurus) 2
+(Giraffatitan) 2
+(Procératosaure) 2
+(Ornithomimus) 2
+(Diplotator) 2 (Diplocaulus) (Irritator_Gén2)
+(Deinosuchus) 2
+(Moschops) 2
+(Archaeopteryx) 2
+(Megalonyx) 2
+(Titanoboa_Gén2) 2
+(Andrewsarchus) 2
+(Charlie) 2
+(Tricératops) 2
+(Meiolania) 2
+(Majundasuchus) 2 (Majungasaure) (Nundasuchus)
+(Argentinosaure) 2
+(Arambourgiania) 2
+(Gorgosaure) 2
+(Aquilops) 2
+(Mégaloaure) 2
+(Mégalocéros) 2
+(Entélodonte) 2
+(Pyroraptor_Gén2) 2
+(Loup_Sinistre) 2
+(Dilophosaure) 2
+(Cervalces) 2
+(Crichtosaurus) 2
+(Preondactylus) 2
+(Irritator) 2
+(Arctops) 2
+(Tupandatylus) 2
+(Utahraptor) 2
+(Arctodus) 2
+(Dreadnoughtus) 2
+(Quetzalcoatlus) 2
+(Albertosaurus) 2
+(Sphaerotholus) 2
+(Thylacosmilus) 2
+(Wuerhosaure) 2
+(Amargasaure) 2
+(Einasuchus) 2 (Einiosaure) (Nundasuchus)
+(Ankylocodon) 2 (Ophiacodon) (Ankylosaure_Gén2)
+(Tuojiangoosaure) 2
+(Spinosaurus) 2
+(Diplocaulus_Gén2) 2
+(Argentavis) 2
+(Tapejara) 2
+(Bajadasaurus) 2
+(Suchotator) 2 (Suchomimus) (Irritator_Gén2)
+(Nasutocratops) 2
+(Gorganops) 2
+(Lion_Marsupial) 2
+(Carnotaure) 2
+(Thérizinosaure) 2
+(Baryonyx_Gén2) 2
+(Ténontosaure) 2
+(Delta) 2
+(Compsognathus_Gén2) 2
+(Rodrigues_Solitaire) 2
+(Dracorex) 2
+(Doedicurus) 2
+(Fukuisaurus) 2
+(Purrolythe) 2 (Lythoronax) (Purussaurus_Gén2)
+(T-Rex_Gén2) 2
+(Dimétrodon) 2
+(Nanotyrannus) 2

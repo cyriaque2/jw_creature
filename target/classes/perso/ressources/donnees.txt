@@ -44,6 +44,8 @@
 (Vélociraptor) 1
 (Megaraptor) 1
 (Centrosaurus) 1
+
+
 (Skorpiovenator) 2
 (Deinotherium) 2
 (Koolasuchus) 2
@@ -127,6 +129,8 @@
 (T-Rex_Gén2) 2
 (Dimétrodon) 2
 (Nanotyrannus) 2
+
+
 (Edmontoguanodon) 3 (Edmontosaure) (Iguanodon)
 (Quetzalcoatlus_Gén2) 3
 (Argenteryx) 3 (Archaeopteryx) (Argentavis)
@@ -224,6 +228,8 @@
 (Aquilamimus) 3 (Gallimimus) (Aigle_de_Haast_Gén2)
 (Rhino_Laineux) 3
 (Entélochops) 3 (Moschops) (Entélodonte)
+(Ovilophosaurus) 3 (Oviraptor) (Dilophosaure)
+
 (Titanotor) 4 (Titanosaurus) (Giganotosaurus)
 (Becklophosaurus) 4 (Brunette) (Ovilophosaurus)
 (Spinoceratops) 4 (Sinocératops) (Spinosaure_Gén2)
@@ -273,6 +279,8 @@
 (Dreadactylus) 4 (Preondactylus) (Dreadnoughtus)
 (Skoolasaure) 4 (Koolasuchus) (Scolosaure)
 (Diplovenator) 4 (Diplocaulus_Gén2) (Concavenator)
+
+
 (Estemmenosuchus) 5
 (Monkeyondactylus) 5 (Monkeydactyl) (Ankylodactylus)
 (Grypolythe) 5 (Gryposuchus) (Purrolythe)

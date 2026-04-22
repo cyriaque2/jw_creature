@@ -10,7 +10,7 @@ import perso.logic.inout.Import;
 public class Main {
     public static void main(String[] args) throws IOException    {
         Bestiaire bestiaire = Import.traduireRessource("/perso/ressources/donnees.txt");
-        System.out.println(bestiaire);
-        System.out.println(CalculsCout.calculCout(1000, CostScenario.AVERAGE_CASE, bestiaire.getCreatureByName("Artocodistis")));
+        //System.out.println(bestiaire);
+        System.out.println(CalculsCout.calculCout(10, CostScenario.WORST_CASE, bestiaire.getCreatureByName("Indoraptor")));
     }
 }

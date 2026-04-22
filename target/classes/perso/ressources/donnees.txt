@@ -44,15 +44,15 @@
 (Vélociraptor) 1
 (Megaraptor) 1
 (Centrosaurus) 1
-
+(Shantungosaurus) 1
 
 (Skorpiovenator) 2
 (Deinotherium) 2
-(Koolasuchus) 2
-(Erlikoasure) 2
+(Koolasuchus_Gén2) 2
+(Erlikosaure_Gén2) 2
 (Inostherium) 2 (Inostrancevia) (Archaeotherium)
 (Scaphognathus) 2
-(kelenken) 2
+(Kelenken) 2
 (Dsungaripterus) 2
 (Aigle_de_Haast_Gén2) 2
 (Baryonyx_Leucistique) 2
@@ -82,7 +82,7 @@
 (Arambourgiania) 2
 (Gorgosaure) 2
 (Aquilops) 2
-(Mégaloaure) 2
+(Mégalosaure) 2
 (Mégalocéros) 2
 (Entélodonte) 2
 (Pyroraptor_Gén2) 2
@@ -112,7 +112,7 @@
 (Tapejara) 2
 (Bajadasaurus) 2
 (Suchotator) 2 (Suchomimus) (Irritator_Gén2)
-(Nasutocratops) 2
+(Nasutoceratops) 2
 (Gorganops) 2
 (Lion_Marsupial) 2
 (Carnotaure) 2
@@ -129,7 +129,7 @@
 (T-Rex_Gén2) 2
 (Dimétrodon) 2
 (Nanotyrannus) 2
-
+(Herrerasaurus) 2
 
 (Edmontoguanodon) 3 (Edmontosaure) (Iguanodon)
 (Quetzalcoatlus_Gén2) 3
@@ -143,7 +143,7 @@
 (Baryothus) 3 (Baryonyx_Leucistique) (Dreadnoughtus)
 (Brunette) 3
 (Dakotaraptor) 3
-(Megalotops) 3 (Megalonyx) (Nasutocratops)
+(Megalotops) 3 (Megalonyx) (Nasutoceratops)
 (Beelzebufo) 3
 (Aerotitan) 3
 (Koolasuchus) 3
@@ -180,7 +180,7 @@
 (Tsintaosaurus) 3
 (Alanqa) 3
 (Carbonemys) 3
-(Acrocanthosorus) 3
+(Acrocanthosaurus) 3
 (Ptéranodon) 3
 (Titanosaurus) 3
 (Gigantspinosaurus) 3
@@ -229,6 +229,7 @@
 (Rhino_Laineux) 3
 (Entélochops) 3 (Moschops) (Entélodonte)
 (Ovilophosaurus) 3 (Oviraptor) (Dilophosaure)
+(Velosrhacos) 3 (Delta) (Phorusrhacos)
 
 (Titanotor) 4 (Titanosaurus) (Giganotosaurus)
 (Becklophosaurus) 4 (Brunette) (Ovilophosaurus)
@@ -244,7 +245,7 @@
 (Pyrritator) 4 (Pyroraptor) (Irritator)
 (Loup_d'Armbuster) 4
 (Renaissance_du_Spinosaurus) 4
-(Grylenken) 4 (kelenken) (Gryposuchus)
+(Grylenken) 4 (Kelenken) (Gryposuchus)
 (Sarcosaurus) 4
 (Beckolyth) 4 (Blonde) (Saurolyth)
 (Nyctosaurus) 4
@@ -279,7 +280,17 @@
 (Dreadactylus) 4 (Preondactylus) (Dreadnoughtus)
 (Skoolasaure) 4 (Koolasuchus) (Scolosaure)
 (Diplovenator) 4 (Diplocaulus_Gén2) (Concavenator)
-
+(Ankylodactylus) 4 (Preondactylus) (Ankylodicurus)
+(Ankylomoloch) 4 (Bumpy) (Stygimoloch)
+(Carnotarkus) 4 (Wuerhosaure) (Purutaurus)
+(Centroceratops) 4 (Centrosaurus) (Protocératops)
+(Keratoporcus) 4 (Archaeotherium) (Rhino_Laineux)
+(Lystrosuchus) 4 (Lystrosaurus) (Einasuchus)
+(Pierce) 4
+(Pyrosuchus) 4 (Pyroraptor_Gén2) (Sarcorixis)
+(Rajakylosaure) 4 (Rajasaure) (Ankylosaure)
+(Koolabourgiana) 4 (Arambourgiania) (Koolasuchus_Gén2)
+(Stegodeus) 4 (Stégosaure) (Nodopatosaure)
 
 (Estemmenosuchus) 5
 (Monkeyondactylus) 5 (Monkeydactyl) (Ankylodactylus)

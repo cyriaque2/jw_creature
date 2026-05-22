@@ -16,25 +16,6 @@ import java.util.Map;
  * </p>
  */
 public final class CalculsCout {
-
-    /**
-     * Table des multiplicateurs de DNA indexée par la différence de rareté.
-     * <p>
-     * L'index i correspond au multiplicateur à appliquer lorsqu'une créature
-     * d'une rareté supérieure d'i par rapport à son parent est fabriquée.
-     * Valeurs : {0, 50, 200, 500, 2000, 5000}.
-     * </p>
-     */
-    public static final int[] Taux_DNA = {0, 50, 200, 500, 2000, 5000};
-
-    /**
-     * Table des multiplicateurs de pièces (Coins) indexée par la rareté relative.
-     * <p>
-     * Utilisée pour calculer le coût local de fusion lors de la création d'une créature.
-     * </p>
-     */
-    public static final int[] Taux_Coins = {20, 100, 200, 1000, 2000};
-
     /**
      * Constructeur privé pour empêcher l'instanciation.
      * <p>
@@ -49,58 +30,94 @@ public final class CalculsCout {
      * @param objectif Quantité cible à produire.
      * @param cas      Scénario de coût définissant notamment le diviseur de production.
      * @param creature La créature cible du calcul.
-     * @return Une Map associant le nom des ressources (DNA de créatures de base ou "Coins ") à leur quantité totale.
+     * @return Une Map associant le nom des ressources (DNA de créatures de base ou "Coins") à leur quantité totale.
      */
     public static Map<String, Integer> calculCout(int objectif, CostScenario cas, Creature creature) {
-        return calculCout(objectif, cas, creature, CurrencyType.COINS);
+        return calculCoutGeneral(objectif, -1, cas, creature);
+        
     }
 
-    /**
-     * Méthode récursive calculant le coût détaillé selon le type de monnaie spécifié.
-     *
-     * @param objectif Quantité cible pour l'étape actuelle.
-     * @param cas      Scénario de coût.
-     * @param creature Créature en cours d'évaluation.
-     * @param type     Le type de monnaie (DNA ou COINS) à calculer.
-     * @return Une Map des coûts agrégés.
-     * @throws IllegalArgumentException si le type de monnaie fourni est inconnu.
-     */
-    private static Map<String, Integer> calculCout(int objectif, CostScenario cas, Creature creature, CurrencyType type) {
-        Map<String, Integer> res = new HashMap<>();
+    private static Map<String, Integer> calculCoutGeneral(int objectif_dna, int objectif_lvl, CostScenario cas, Creature creature){
+        Map<String, Integer> res = calculCoutFusion(objectif_dna, cas, creature);
         Map<String, Integer> temp;
-        int objectif_DNA_parent1;
-        int objectif_DNA_parent2;
+
+        if(objectif_lvl != -1){
+            temp = calculCoutLevelUp(objectif_lvl, creature);
+            merge(res, temp);
+        } else {
+            if(creature.getParent1()==null){
+                return res;
+            }
+        }
         
+        if(creature.getParent1()!=null){
+            temp = calculCoutGeneral(res.get(creature.getParent1().getNom()), (creature.getRarete()-1)*5, cas, creature.getParent1());
+            merge(res, temp);
+            temp = calculCoutGeneral(res.get(creature.getParent2().getNom()), (creature.getRarete()-1)*5, cas, creature.getParent2());
+            merge(res, temp);
+            return res;
+        } else {
+            res.clear();
+            res.put("Coins", 0);
+            return res;
+        }
+    }
+
+    public static Map<String, Integer> calculCoutFusion(int objectif, CostScenario cas, Creature creature) {
+        Map<String, Integer> res = new HashMap<>();
         int divisor = cas.divisor;
         int nombre_fusion = MathUtils.divsup(objectif, divisor);
 
         if (creature.getParent1() == null) {
-            switch (type) {
-                case DNA -> res.put(creature.getNom(), objectif);
-                case COINS -> res.put("Coins ", 0);
-                default -> throw new IllegalArgumentException("Type d'ID inconnu : " + type);
-            }
+            res.put(creature.getNom(), objectif);
+            res.put("Coins", 0);
         } else {
-            objectif_DNA_parent1 = nombre_fusion * Taux_DNA[creature.getRarete() - creature.getParent1().getRarete()];
-            objectif_DNA_parent2 = nombre_fusion * Taux_DNA[creature.getRarete() - creature.getParent2().getRarete()];
+            int objectif_DNA_parent1 = nombre_fusion * Taux.instance.get_Taux_DNA_Fusion()[creature.getRarete() - creature.getParent1().getRarete()];
+            int objectif_DNA_parent2 = nombre_fusion * Taux.instance.get_Taux_DNA_Fusion()[creature.getRarete() - creature.getParent2().getRarete()];
+            res.put(creature.getParent1().getNom(), objectif_DNA_parent1);
+            res.put(creature.getParent2().getNom(), objectif_DNA_parent2);
+            int coins = nombre_fusion * Taux.instance.get_Taux_Coins_Fusion()[creature.getRarete() - 2];
+            res.merge("Coins", coins, Integer::sum);
+        }
+        return res;
+    }
 
-            if (type == CurrencyType.DNA) {
-                res = calculCout(objectif_DNA_parent1, cas, creature.getParent1(), type);
-                temp = calculCout(objectif_DNA_parent2, cas, creature.getParent2(), type);
-                merge(res, temp);
-
-            } else if (type == CurrencyType.COINS) {
-                addLocalCost(res, type, creature, nombre_fusion);
-
-                temp = calculCout(objectif_DNA_parent1, cas, creature.getParent1(), type);
-                merge(res, temp);
-
-                temp = calculCout(objectif_DNA_parent2, cas, creature.getParent2(), type);
-                merge(res, temp);
-
-            } else {
-                throw new IllegalArgumentException("Type d'ID inconnu : " + type);
+    public static Map<String, Integer> calculCoutLevelUp(int objectif, Creature creature) { //objectif -> Niveau visé
+        if(objectif<1 || objectif>30){
+            throw new IllegalArgumentException("Objecctif niveau Incorrect, doit être compris entre 1 et 30 inclu. Valeur fournie:"+objectif);
+        }
+        Map<String, Integer> res = new HashMap<>();
+        int niveau_creature = creature.getNiveau();
+        int niveau_origine = creature.getRarete()*5-4;
+        int coins = 0;
+        int DNA = 0;
+        if(niveau_creature==-1){
+            niveau_creature = niveau_origine;
+            DNA += Taux.instance.get_Taux_DNA_Unlock()[creature.getRarete()-1];
+        }
+        if(niveau_creature<objectif){
+            for(int i = niveau_creature; i<objectif; i++){
+                coins += Taux.instance.get_Taux_Coins_LevelUp()[i-1];
+                DNA += Taux.instance.get_Taux_DNA_LevelUp()[i-niveau_origine];
             }
+        }
+        res.put("Coins", coins);
+        res.put(creature.getNom(), DNA);
+        return res;
+    }
+
+    public static Map<Creature, Boolean> getAncetres(Creature creature){
+        Map<Creature, Boolean> res = new HashMap<>();
+        res.put(creature, false);
+        if(creature.getParent1() != null){
+            Map<Creature, Boolean> temp = getAncetres(creature.getParent1());
+            for (Map.Entry<Creature, Boolean> entry : temp.entrySet()){
+               res.merge(entry.getKey(), entry.getValue(), Boolean::logicalAnd);
+            }
+            temp = getAncetres(creature.getParent2());
+            for (Map.Entry<Creature, Boolean> entry : temp.entrySet()){
+               res.merge(entry.getKey(), entry.getValue(), Boolean::logicalAnd);
+            }   
         }
         return res;
     }
@@ -118,19 +135,4 @@ public final class CalculsCout {
         }
     }
 
-    /**
-     * Calcule et ajoute le coût local (spécifique à l'étape de fusion actuelle) 
-     * à la Map de résultats.
-     *
-     * @param res           La Map de résultats.
-     * @param type          Le type de monnaie actuel.
-     * @param creature      La créature dont on calcule la fusion.
-     * @param nombre_fusion Le nombre de fusions nécessaires.
-     */
-    private static void addLocalCost(Map<String, Integer> res, CurrencyType type, Creature creature, int nombre_fusion) {
-        if (type == CurrencyType.COINS) {
-            int coins = nombre_fusion * Taux_Coins[creature.getRarete() - 2];
-            res.merge("Coins ", coins, Integer::sum);
-        }
-    }
 }

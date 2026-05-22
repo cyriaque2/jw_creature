@@ -74,7 +74,7 @@ public class Creature {
     }
     
     public void trouveCreature(int rarete, Creature parent1, Creature parent2, boolean unlocked) { //permet à une créature de quiter l'état inconnu
-        if(rarete==-1){
+        if(this.rarete==-1){
             if(unlocked){
                 niveau = (rarete-1)*5 + 1;
             }
@@ -103,6 +103,7 @@ public class Creature {
         }
     }
    
+    
     @Override
     public String toString() {
         String s = getType()+"{" +"id=" + id + " | nom= " + nom;

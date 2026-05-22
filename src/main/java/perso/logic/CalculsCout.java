@@ -3,35 +3,10 @@ package perso.logic;
 import java.util.HashMap;
 import java.util.Map;
 
-/**
- * Utilitaire final fournissant le calcul des coûts (ou quantités) nécessaires
- * pour atteindre un objectif de production d'une {@link Creature} donnée selon
- * un scénario de coût {@link CostScenario}.
- * <p>
- * La méthode principale effectue un calcul récursif : si la créature est une 
- * créature de base (pas de parent), le coût est directement affecté à son nom ; 
- * sinon la méthode décompose l'objectif en objectifs intermédiaires pour 
- * chacun des parents, applique des multiplicateurs selon la différence de 
- * rareté et agrège les résultats.
- * </p>
- */
 public final class CalculsCout {
-    /**
-     * Constructeur privé pour empêcher l'instanciation.
-     * <p>
-     * Cette classe est une collection de méthodes utilitaires statiques.
-     * </p>
-     */
+
     private CalculsCout() {}
 
-    /**
-     * Calcule le coût total pour une créature donnée en utilisant le type de monnaie par défaut (Valeur Temporaire).
-     *
-     * @param objectif Quantité cible à produire.
-     * @param cas      Scénario de coût définissant notamment le diviseur de production.
-     * @param creature La créature cible du calcul.
-     * @return Une Map associant le nom des ressources (DNA de créatures de base ou "Coins") à leur quantité totale.
-     */
     public static Map<String, Integer> calculCout(int objectif, CostScenario cas, Creature creature) {
         return calculCoutGeneral(objectif, -1, cas, creature);
         
@@ -122,13 +97,6 @@ public final class CalculsCout {
         return res;
     }
 
-    /**
-     * Fusionne les résultats d'une Map temporaire dans la Map de résultats principale 
-     * en additionnant les valeurs pour les clés communes.
-     *
-     * @param res  La Map de destination (sera modifiée).
-     * @param temp La Map source contenant les valeurs à ajouter.
-     */
     private static void merge(Map<String, Integer> res, Map<String, Integer> temp) {
         for (Map.Entry<String, Integer> entry : temp.entrySet()) {
             res.merge(entry.getKey(), entry.getValue(), Integer::sum);

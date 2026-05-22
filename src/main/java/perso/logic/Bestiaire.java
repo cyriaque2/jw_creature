@@ -1,34 +1,14 @@
 package perso.logic;
 import java.util.ArrayList;
-/**
- * Représente le conteneur principal des {@link Creature} connus et des entrées
- * "manquantes" créées à la volée lorsqu'une créature est référencée mais non encore
- * présente dans le bestiaire.
- * <p>
- * Fournit des opérations d'ajout, de recherche par nom ou par identifiant et de
- * récupération de la liste interne. Les listes internes sont retournées directement
- * (référence interne) : toute modification faite sur la liste retournée affecte
- * l'état du Bestiaire.
- * </p>
- */
+
 public class Bestiaire {
-    /**
-     * Liste des créatures chargées dans le bestiaire.
-     */
+    public static final Bestiaire instance = new Bestiaire();
+    private Bestiaire() {}
+    
     private final ArrayList<Creature> bestiaire = new ArrayList<>();
 
-    /**
-     * Liste des créatures "manquantes" : objets créés lorsque l'on demande une
-     * créature par nom qui n'existe pas encore dans {@code bestiaire}. Permet de
-     * conserver les références manquantes afin d'établir des liens ultérieurement.
-     */
     private final ArrayList<Creature> bestiaireInconnu = new ArrayList<>();
 
-    /**
-     * Ajoute une créature au bestiaire.
-     *
-     * @param creature instance de {@link Creature} à ajouter
-     */
     public void addCreature(Creature creature) {
         this.bestiaire.add(creature);
     }
@@ -61,6 +41,27 @@ public class Bestiaire {
         return bestiaire;
     }
 
+    public boolean peutSupprimer(Creature creature) {
+
+        for (Creature c : bestiaire) {
+            if (creature.equals(c.getParent1()) || creature.equals(c.getParent2())) {
+                return false;
+            }
+        }
+        return true;
+    }
+
+    public void supprimeCreature(Creature creature) {
+        if (!peutSupprimer(creature)) {
+            throw new IllegalStateException("La créature " + creature.getNom() + " est utilisée comme parent.");
+        }
+        bestiaire.remove(creature);
+        bestiaireInconnu.remove(creature);
+    }
+
+    public ArrayList<Creature> getBestiaireInconnu() {
+        return bestiaireInconnu;
+    }  
 
     @Override
     public String toString() {

@@ -1,309 +1,476 @@
-(Nundasuchus) 1
-(Diplocaulus) 1
-(Ophiacodon) 1
-(Purussaurus_Gén2) 1
-(Irritator_Gén2) 1
-(Majungasaure) 1
-(Stygimoloch_Gén2) 1
-(Sauronitholestes) 1
-(Lythoronax) 1
-(Dimétrodon_Gén2) 1
-(Phorusrhacos) 1
-(Euoplocephalus) 1
-(Dimorphodon) 1
-(Einiosaure) 1
-(Apatosaure) 1
-(Sarcosuchus) 1
-(Brontothère) 1
-(Suchomimus) 1
-(Iguanodon) 1
-(Archaeotherium) 1
-(Hatzegopteryx) 1
-(Tricératops_Gén2) 1
-(Deinonychus) 1
-(Glyptodon) 1
-(Coelurosauravus) 1
-(Eremotherium) 1
-(Monolophosaure_Gén2) 1
-(Dracorex_Gén2) 1
-(Stégosaure) 1
-(Inostrancevia) 1
-(Platéosaure) 1
-(Miragaia) 1
-(Tanycolagreus) 1
-(Scolosaure) 1
-(Ankylosaure_Gén2) 1
-(Parasaurolophus) 1
-(Gallimimus) 1
-(Dilophosaure_Gén2) 1
-(Tarbosaure) 1
-(Amphicyon) 1
-(Allosaure) 1
-(Sinosauropteryx) 1
-(Deinocheirus) 1
-(Vélociraptor) 1
-(Megaraptor) 1
-(Centrosaurus) 1
-(Shantungosaurus) 1
+(Nundasuchus) 1 | 5 
+(Diplocaulus) 1 | 5 
+(Ophiacodon) 1 | 5 
+(Purussaurus_Gén2) 1 | 5 
+(Irritator_Gén2) 1 | 5 
+(Majungasaure) 1 | 5 
+(Stygimoloch_Gén2) 1 | 8 
+(Sauronitholestes) 1 | 10 
+(Lythoronax) 1 | 8 
+(Dimétrodon_Gén2) 1 | 10 
+(Phorusrhacos) 1 | 10 
+(Euoplocephalus) 1 | 10 
+(Dimorphodon) 1 | 10 
+(Einiosaure) 1 | 10 
+(Apatosaure) 1 | 11 
+(Sarcosuchus) 1 | 10 
+(Brontothère) 1 | 10 
+(Suchomimus) 1 | 10 
+(Iguanodon) 1 | 10 
+(Archaeotherium) 1 | 11 
+(Hatzegopteryx) 1 | 12 
+(Tricératops_Gén2) 1 | 12 
+(Deinonychus) 1 | 14 
+(Glyptodon) 1 | 12 
+(Coelurosauravus) 1 | 12 
+(Eremotherium) 1 | 12 
+(Monolophosaure_Gén2) 1 | 15 
+(Dracorex_Gén2) 1 | 12 
+(Stégosaure) 1 | 15 
+(Inostrancevia) 1 | 13 
+(Platéosaure) 1 | 13 
+(Miragaia) 1 | 13 
+(Tanycolagreus) 1 | 13 
+(Scolosaure) 1 | 13 
+(Ankylosaure_Gén2) 1 | 14 
+(Parasaurolophus) 1 | 15 
+(Gallimimus) 1 | 15 
+(Dilophosaure_Gén2) 1 | 15 
+(Tarbosaure) 1 | 15 
+(Amphicyon) 1 | 15 
+(Allosaure) 1 | 15 
+(Sinosauropteryx) 1 | 15 
+(Deinocheirus) 1 | 16 
+(Vélociraptor) 1 | 20 
+(Megaraptor) 1 | 11 
+(Centrosaurus) 1 | 8 
+(Shantungosaurus) 1 | 2 
 
-(Skorpiovenator) 2
-(Deinotherium) 2
-(Koolasuchus_Gén2) 2
-(Erlikosaure_Gén2) 2
-(Inostherium) 2 (Inostrancevia) (Archaeotherium)
-(Scaphognathus) 2
-(Kelenken) 2
-(Dsungaripterus) 2
-(Aigle_de_Haast_Gén2) 2
-(Baryonyx_Leucistique) 2
-(Elasmotherium) 2
-(Oviraptor) 2
-(Karposuchus) 2
-(Echo) 2
-(Nodosaure) 2
-(Edmontosaure) 2
-(Postosuchus) 2
-(Purussaurus) 2
-(Giraffatitan) 2
-(Procératosaure) 2
-(Ornithomimus) 2
-(Diplotator) 2 (Diplocaulus) (Irritator_Gén2)
-(Deinosuchus) 2
-(Moschops) 2
-(Archaeopteryx) 2
-(Megalonyx) 2
-(Titanoboa_Gén2) 2
-(Andrewsarchus) 2
-(Charlie) 2
-(Tricératops) 2
-(Meiolania) 2
-(Majundasuchus) 2 (Majungasaure) (Nundasuchus)
-(Argentinosaure) 2
-(Arambourgiania) 2
-(Gorgosaure) 2
-(Aquilops) 2
-(Mégalosaure) 2
-(Mégalocéros) 2
-(Entélodonte) 2
-(Pyroraptor_Gén2) 2
-(Loup_Sinistre) 2
-(Dilophosaure) 2
-(Cervalces) 2
-(Crichtosaurus) 2
-(Preondactylus) 2
-(Irritator) 2
-(Arctops) 2
-(Tupandatylus) 2
-(Utahraptor) 2
-(Arctodus) 2
-(Dreadnoughtus) 2
-(Quetzalcoatlus) 2
-(Albertosaurus) 2
-(Sphaerotholus) 2
-(Thylacosmilus) 2
-(Wuerhosaure) 2
-(Amargasaure) 2
-(Einasuchus) 2 (Einiosaure) (Nundasuchus)
-(Ankylocodon) 2 (Ophiacodon) (Ankylosaure_Gén2)
-(Tuojiangoosaure) 2
-(Spinosaurus) 2
-(Diplocaulus_Gén2) 2
-(Argentavis) 2
-(Tapejara) 2
-(Bajadasaurus) 2
-(Suchotator) 2 (Suchomimus) (Irritator_Gén2)
-(Nasutoceratops) 2
-(Gorganops) 2
-(Lion_Marsupial) 2
-(Carnotaure) 2
-(Thérizinosaure) 2
-(Baryonyx_Gén2) 2
-(Ténontosaure) 2
-(Delta) 2
-(Compsognathus_Gén2) 2
-(Rodrigues_Solitaire) 2
-(Dracorex) 2
-(Doedicurus) 2
-(Fukuisaurus) 2
-(Purrolythe) 2 (Lythoronax) (Purussaurus_Gén2)
-(T-Rex_Gén2) 2
-(Dimétrodon) 2
-(Nanotyrannus) 2
-(Herrerasaurus) 2
+(Skorpiovenator) 2 | 8 
+(Deinotherium) 2 | 8 
+(Koolasuchus_Gén2) 2 | 15 
+(Erlikosaure_Gén2) 2 | 11 
+(Inostherium) 2 | 8 (Inostrancevia) (Archaeotherium)
+(Scaphognathus) 2 | 8 
+(Kelenken) 2 | 13 
+(Dsungaripterus) 2 | 8 
+(Aigle_de_Haast_Gén2) 2 | 10 
+(Baryonyx_Leucistique) 2 | 10 
+(Elasmotherium) 2 | 10 
+(Oviraptor) 2 | 9 
+(Kaprosuchus) 2 | 11 
+(Echo) 2 | 10 
+(Nodosaure) 2 | 10 
+(Edmontosaure) 2 | 10 
+(Postosuchus) 2 | 10 
+(Purussaurus) 2 | 10 
+(Giraffatitan) 2 | 12 
+(Procératosaure) 2 | 12 
+(Ornithomimus) 2 | 10 
+(Diplotator) 2 | 10 (Diplocaulus) (Irritator_Gén2)
+(Deinosuchus) 2 | 10 
+(Moschops) 2 | 10 
+(Archaeopteryx) 2 | 10 
+(Megalonyx) 2 | 10 
+(Titanoboa_Gén2) 2 | 10 
+(Andrewsarchus) 2 | 10 
+(Charlie) 2 | 10 
+(Tricératops) 2 | 14 
+(Meiolania) 2 | 14 
+(Majundasuchus) 2 | 11 (Majungasaure) (Nundasuchus)
+(Argentinosaure) 2 | 15 
+(Arambourgiania) 2 | 15 
+(Gorgosaure) 2 | 16 
+(Aquilops) 2 | 12 
+(Mégalosaure) 2 | 12 
+(Mégalocéros) 2 | 12 
+(Entélodonte) 2 | 12 
+(Pyroraptor_Gén2) 2 | 15 
+(Loup_Sinistre) 2 | 14 
+(Dilophosaure) 2 | 15 
+(Cervalces) 2 | 12 
+(Crichtonsaurus) 2 | 15 
+(Preondactylus) 2 | 15 
+(Irritator) 2 | 15 
+(Arctops) 2 | 15 
+(Tupandatylus) 2 | 12 
+(Utahraptor) 2 | 12 
+(Arctodus) 2 | 12 
+(Dreadnoughtus) 2 | 13 
+(Quetzalcoatlus) 2 | 12 
+(Albertosaurus) 2 | 12 
+(Sphaerotholus) 2 | 14 
+(Thylacosmilus) 2 | 12 
+(Wuerhosaure) 2 | 12 
+(Amargasaure) 2 | 13 
+(Einasuchus) 2 | 15 (Einiosaure) (Nundasuchus)
+(Ankylocodon) 2 | 13 (Ophiacodon) (Ankylosaure_Gén2)
+(Tuojiangosaure) 2 | 13 
+(Spinosaurus) 2 | 13 
+(Diplocaulus_Gén2) 2 | 13 
+(Argentavis) 2 | 13 
+(Tapejara) 2 | 13 
+(Bajadasaurus) 2 | 15 
+(Suchotator) 2 | 15 (Suchomimus) (Irritator_Gén2)
+(Nasutoceratops) 2 | 14 
+(Gorganops) 2 | 14 
+(Lion_Marsupial) 2 | 14 
+(Carnotaure) 2 | 14 
+(Thérizinosaure) 2 | 15 
+(Baryonyx_Gén2) 2 | 15 
+(Ténontosaure) 2 | 15 
+(Delta) 2 | 15 
+(Compsognathus_Gén2) 2 | 15 
+(Rodrigues_Solitaire) 2 | 15 
+(Dracorex) 2 | 15 
+(Doedicurus) 2 | 15 
+(Fukuisaurus) 2 | 15 
+(Purrolythe) 2 | 15 (Lythoronax) (Purussaurus_Gén2)
+(T_Rex_Gén2) 2 | 15 
+(Dimétrodon) 2 | 18 
+(Nanotyrannus) 2 | 6 
+(Herrerasaurus) 2 | 10 
 
-(Edmontoguanodon) 3 (Edmontosaure) (Iguanodon)
-(Quetzalcoatlus_Gén2) 3
-(Argenteryx) 3 (Archaeopteryx) (Argentavis)
-(Dimodactylus) 3 (Tupandatylus) (Dimorphodon)
-(Mégalogaia) 3 (Mégalocéros) (Miragaia)
-(Brontolasmus) 3 (Elasmotherium) (Brontothère)
-(Protocératops) 3
-(Scutosaurus) 3
-(Animantarx) 3
-(Baryothus) 3 (Baryonyx_Leucistique) (Dreadnoughtus)
-(Brunette) 3
-(Dakotaraptor) 3
-(Megalotops) 3 (Megalonyx) (Nasutoceratops)
-(Beelzebufo) 3
-(Aerotitan) 3
-(Koolasuchus) 3
-(Erlikosaure) 3
-(Sécodontosaure) 3
-(Saurolyth) 3 (Sauronitholestes) (Purrolythe)
-(Deinotops) 3 (Deinosuchus) (Arctops)
-(Rinchenia) 3
-(Andrewtodon) 3 (Andrewsarchus) (Glyptodon)
-(Ampelosaure) 3
-(Blonde) 3
-(Ailurarctos) 3
-(Gorgosuchus) 3 (Gorgosaure) (Karposuchus)
-(Erlikogamma) 3 (Erlikoasure) (Charlie)
-(Stegoceras) 3
-(Brachiosaure) 3
-(Nodopatosaure) 3 (Apatosaure) (Nodosaure)
-(Mammouth_Laineux) 3
-(Ankylodicurus) 3 (Doedicurus) (Ankylocodon)
-(Majundaboa) 3 (Titanoboa_Gén2) (Majundasuchus)
-(Smilodon) 3
-(Oviraptor_Gén2) 3
-(Diplodocus) 3
-(Moros_Intrepidus) 3
-(Maiasaura) 3
-(Struthiomimus) 3
-(Concavenator) 3
-(Ghost) 3
-(Ouranosaure) 3
-(Stégocératops) 3 (Tricératops) (Stégosaure)
-(Spinosaure_Gén2) 3
-(Procérathomimus) 3 (Procératosaure) (Ornithomimus)
-(Sinocératops) 3
-(Tsintaosaurus) 3
-(Alanqa) 3
-(Carbonemys) 3
-(Acrocanthosaurus) 3
-(Ptéranodon) 3
-(Titanosaurus) 3
-(Gigantspinosaurus) 3
-(Pachycéphalosaure) 3
-(Sarcorixis) 3 (Sarcosuchus) (Einasuchus)
-(Spinotahraptor) 3 (Spinosaurus) (Utahraptor)
-(Kentrosaure) 3
-(Darwinopterus) 3
-(Dodo) 3
-(Aigle_de_Haast) 3
-(Anurognathus) 3
-(Eucladoceros) 3
-(Edaphosaurus) 3
-(Lystrosaurus) 3
-(Compsognathus) 3
-(Sonorasaurus) 3
-(Troodon) 3
-(Megistotherium) 3
-(Ankylosaure) 3
-(Amargocephalus) 3 (Amargasaure) (Euoplocephalus)
-(Rajasaure) 3
-(Titanoboa) 3
-(Indominus-Rex_Gén2) 3 (T-Rex_Gén2) (Echo)
-(Purutaurus) 3 (Carnotaure) (Purussaurus)
-(Monolophosaure) 3
-(Tyrannosaure) 3
-(Baryonyx) 3
-(Antarctopelta) 3
-(Stygimoloch) 3
-(Blue) 3
-(Pyroraptor) 3
-(Pulmonoscorpius) 3
-(Posimetrodon) 3 (Postosuchus) (Dimétrodon)
-(Microraptor) 3
-(Thylacotator) 3 (Lion_Marsupial) (Suchotator)
-(Allosaure_Gén2) 3
-(Bumpy) 3
-(Beta) 3
-(Scorpios-Rex_Gén2) 3 (Monolophosaure_Gén2) (Carnotaure)
-(Gryposuchus) 3
-(Panthera) 3
-(Tiger) 3
-(Red) 3
-(Giganotosaurus) 3
-(Aquilamimus) 3 (Gallimimus) (Aigle_de_Haast_Gén2)
-(Rhino_Laineux) 3
-(Entélochops) 3 (Moschops) (Entélodonte)
-(Ovilophosaurus) 3 (Oviraptor) (Dilophosaure)
-(Velosrhacos) 3 (Delta) (Phorusrhacos)
+(Edmontoguanodon) 3 | 11 (Edmontosaure) (Iguanodon)
+(Quetzalcoatlus_Gén2) 3 | 11 
+(Argenteryx) 3 | 11 (Archaeopteryx) (Argentavis)
+(Dimodactylus) 3 | 11 (Tupandatylus) (Dimorphodon)
+(Mégalogaia) 3 | 11 (Mégalocéros) (Miragaia)
+(Brontolasmus) 3 | 11 (Elasmotherium) (Brontothère)
+(Protocératops) 3 | 11 
+(Scutosaurus) 3 | 11 
+(Animantarx) 3 | 11 
+(Baryothus) 3 | 11 (Baryonyx_Leucistique) (Dreadnoughtus)
+(Brunette) 3 | 11 
+(Dakotaraptor) 3 | 11 
+(Megalotops) 3 | 11 (Megalonyx) (Nasutoceratops)
+(Beelzebufo) 3 | 11 
+(Aérotitan) 3 | 11 
+(Koolasuchus) 3 | 11 
+(Erlikosaure) 3 | 11 
+(Sécodontosaure) 3 | 15 
+(Saurolyth) 3 | 15 (Sauronitholestes) (Purrolythe)
+(Deinotops) 3 | 11 (Deinosuchus) (Arctops)
+(Rinchenia) 3 | 11 
+(Andrewtodon) 3 | 11 (Andrewsarchus) (Glyptodon)
+(Ampelosaure) 3 | 11 
+(Blonde) 3 | 13 
+(Ailurarctos) 3 | 11 
+(Gorgosuchus) 3 | 12 (Gorgosaure) (Kaprosuchus)
+(Erlikogamma) 3 | 12 (Erlikosaure_Gén2) (Charlie)
+(Stegoceras) 3 | 12 
+(Brachiosaure) 3 | 19 
+(Nodopatosaure) 3 | 15 (Apatosaure) (Nodosaure)
+(Mammouth_Laineux) 3 | 12 
+(Ankylodicurus) 3 | 15 (Doedicurus) (Ankylocodon)
+(Majundaboa) 3 | 12 (Titanoboa_Gén2) (Majundasuchus)
+(Smilodon) 3 | 12 
+(Oviraptor_Gén2) 3 | 12 
+(Diplodocus) 3 | 18 
+(Moros_Intrepidus) 3 | 12 
+(Maiasaura) 3 | 12 
+(Struthiomimus) 3 | 12 
+(Concavenator) 3 | 12 
+(Ghost) 3 | 18 
+(Ouranosaure) 3 | 15 
+(Stégocératops) 3 | 14 (Tricératops) (Stégosaure)
+(Spinosaurus_Gén2) 3 | 13 
+(Procérathomimus) 3 | 15 (Procératosaure) (Ornithomimus)
+(Sinocératops) 3 | 13 
+(Tsintaosaurus) 3 | 13 
+(Alanqa) 3 | 13 
+(Carbonemys) 3 | 13 
+(Acrocanthosaurus) 3 | 14 
+(Ptéranodon) 3 | 13 
+(Titanosaurus) 3 | 13 
+(Gigantspinosaurus) 3 | 13 
+(Pachycéphalosaure) 3 | 13 
+(Sarcorixis) 3 | 15 (Sarcosuchus) (Einasuchus)
+(Spinotahraptor) 3 | 14 (Spinosaurus) (Utahraptor)
+(Kentrosaure) 3 | 15 
+(Darwinopterus) 3 | 14 
+(Dodo) 3 | 14 
+(Aigle_de_Haast) 3 | 15 
+(Anurognathus) 3 | 14 
+(Eucladoceros) 3 | 14 
+(Edaphosaurus) 3 | 14 
+(Lystrosaurus) 3 | 15 
+(Compsognathus) 3 | 14 
+(Sonorasaurus) 3 | 14 
+(Troodon) 3 | 14 
+(Megistotherium) 3 | 15 
+(Ankylosaure) 3 | 15 
+(Amargocephalus) 3 | 15 (Amargasaure) (Euoplocephalus)
+(Rajasaure) 3 | 15 
+(Titanoboa) 3 | 15 
+(Indominus_Rex_Gén2) 3 | 15 (T_Rex_Gén2) (Echo)
+(Purutaurus) 3 | 15 (Carnotaure) (Purussaurus)
+(Monolophosaure) 3 | 15 
+(Tyrannosaure) 3 | 15 
+(Baryonyx) 3 | 15 
+(Antarctopelta) 3 | 15 
+(Stygimoloch) 3 | 15 
+(Blue) 3 | 15 
+(Pyroraptor) 3 | 15 
+(Pulmonoscorpius) 3 | 15 
+(Posimetrodon) 3 | 15 (Postosuchus) (Dimétrodon)
+(Microraptor) 3 | 15 
+(Thylacotator) 3 | 15 (Lion_Marsupial) (Suchotator)
+(Allosaure_Gén2) 3 | 15 
+(Bumpy) 3 | 15 
+(Beta) 3 | 16 
+(Scorpios_Rex_Gén2) 3 | 17 (Monolophosaure_Gén2) (Carnotaure)
+(Gryposuchus) 3 | 19 
+(Panthera) 3 | 20 
+(Tiger) 3 | 20 
+(Red) 3 | 20 
+(Giganotosaurus) 3 | 20 
+(Aquilamimus) 3 | 11 (Gallimimus) (Aigle_de_Haast_Gén2)
+(Rhino_Laineux) 3 | 11 
+(Entélochops) 3 | 11 (Moschops) (Entélodonte)
+(Ovilophosaurus) 3 | 11 (Oviraptor) (Dilophosaure)
+(Velosrhacos) 3 | 11 (Delta) (Phorusrhacos)
 
-(Titanotor) 4 (Titanosaurus) (Giganotosaurus)
-(Becklophosaurus) 4 (Brunette) (Ovilophosaurus)
-(Spinoceratops) 4 (Sinocératops) (Spinosaure_Gén2)
-(Scorpios-Rex) 4 (Purutaurus) (Monolophosaure)
-(Utasinoraptor) 4 (Utahraptor) (Sinocératops)
-(Segnoraptor) 4 (Thérizinosaure) (Microraptor)
-(Graciliraptor) 4
-(Megistocurus) 4 (Megistotherium) (Doedicurus)
-(Monomimus) 4 (Gallimimus) (Monolophosaure)
-(Concakuiisaurus) 4 (Fukuisaurus) (Concavenator)
-(Aquicomilus) 4 (Aquilamimus) (Thylacosmilus)
-(Pyrritator) 4 (Pyroraptor) (Irritator)
-(Loup_d'Armbuster) 4
-(Renaissance_du_Spinosaurus) 4
-(Grylenken) 4 (Kelenken) (Gryposuchus)
-(Sarcosaurus) 4
-(Beckolyth) 4 (Blonde) (Saurolyth)
-(Nyctosaurus) 4
-(Rebel) 4
-(Tarbognathus) 4 (Tarbosaure) (Compsognathus_Gén2)
-(Arctacles) 4 (Arctodus) (Cervalces)
-(Parasaurolophus_Lux) 4
-(Rajatholus) 4 (Rajasaure) (Sphaerotholus)
-(Tyrannosaure_Doe) 4
-(Gigaspikasaure) 4 (Nodopatosaure) (Amargasaure)
-(Tyrannolophosaure) 4 (T-Rex_Gén2) (Dilophosaure_Gén2)
-(Thylaconyx) 4 (Baryonyx_Gén2) (Lion_Marsupial)
-(Dilophoboa) 4 (Titanoboa) (Dilophosaure_Gén2)
-(Tyrannosaure_Buck) 4
-(Indoraptor_Gén2) 4 (Indominus-Rex_Gén2) (Blue)
-(Angel) 4
-(Scelidosaurus) 4
-(Alloraptor) 4 (Allosaure_Gén2) (Delta)
-(Panthera_Blytheae) 4
-(Rexy) 4
-(Paramoloch) 4 (Parasaurolophus) (Stygimoloch)
-(Allosinosaure) 4 (Allosaure) (Sinocératops)
-(Targodistis) 4 (Amargocephalus) (Parasaurolophus)
-(Tryostronix) 4 (Baryonyx) (Posimetrodon)
-(Indominus-Rex) 4 (Tyrannosaure) (Vélociraptor)
-(Fukuimimus) 4 (Fukuisaurus) (Struthiomimus)
-(Aquisaurus) 4 (Aquilops) (Lystrosaurus)
-(Ardontosaurus) 4 (Argentinosaure) (Sécodontosaure)
-(Smilocephalosaurus) 4 (Smilodon) (Pachycéphalosaure)
-(Diloranosaure) 4 (Dilophosaure) (Ouranosaure)
-(Darwezopteryx) 4 (Darwinopterus) (Hatzegopteryx)
-(Dreadactylus) 4 (Preondactylus) (Dreadnoughtus)
-(Skoolasaure) 4 (Koolasuchus) (Scolosaure)
-(Diplovenator) 4 (Diplocaulus_Gén2) (Concavenator)
-(Ankylodactylus) 4 (Preondactylus) (Ankylodicurus)
-(Ankylomoloch) 4 (Bumpy) (Stygimoloch)
-(Carnotarkus) 4 (Wuerhosaure) (Purutaurus)
-(Centroceratops) 4 (Centrosaurus) (Protocératops)
-(Keratoporcus) 4 (Archaeotherium) (Rhino_Laineux)
-(Lystrosuchus) 4 (Lystrosaurus) (Einasuchus)
-(Pierce) 4
-(Pyrosuchus) 4 (Pyroraptor_Gén2) (Sarcorixis)
-(Rajakylosaure) 4 (Rajasaure) (Ankylosaure)
-(Koolabourgiana) 4 (Arambourgiania) (Koolasuchus_Gén2)
-(Stegodeus) 4 (Stégosaure) (Nodopatosaure)
+-(Scaphotator) 3 | 0 (Diplotator) (Scaphognathus)
 
-(Estemmenosuchus) 5
-(Monkeyondactylus) 5 (Monkeydactyl) (Ankylodactylus)
-(Grypolythe) 5 (Gryposuchus) (Purrolythe)
-(Giganyx) 5 (Giganotosaurus) (Tryostronix)
-(Pantherator) 5 (Panthera_Blytheae) (Thylacotator)
-(Constrictoraptor) 5 (Dilophoboa) (Panthera)
-(Styracosaurus_Lux) 5
-(Dracovenator) 5
-(Artocodistis) 5 (Red) (Targodistis)
-(Nomingia) 5
-(Ceratosaurus) 5
-(Andrewtops) 5 (Andrewtodon) (Arctops)
-(Junior) 5 (Tyrannosaure_Buck) (Tyrannosaure_Doe)
-(Indoraptor) 5 (Indominus-Rex) (Vélociraptor)
-(Atrocimoloch) 5 (Tiger) (Paramoloch)
+
+(Titanotor) 4 | 16 (Titanosaurus) (Giganotosaurus)
+(Becklophosaurus) 4 | 16 (Brunette) (Ovilophosaurus)
+(Spinoceratops) 4 | 16 (Sinocératops) (Spinosaurus_Gén2)
+(Scorpios_Rex) 4 | 16 (Purutaurus) (Monolophosaure)
+(Utasinoraptor) 4 | 16 (Utahraptor) (Sinocératops)
+(Segnoraptor) 4 | 16 (Thérizinosaure) (Microraptor)
+(Graciliraptor) 4 | 16 
+(Megistocurus) 4 | 16 (Megistotherium) (Doedicurus)
+(Monomimus) 4 | 16 (Gallimimus) (Monolophosaure)
+(Concakuiisaurus) 4 | 16 (Fukuisaurus) (Concavenator)
+(Aquicomilus) 4 | 16 (Aquilamimus) (Thylacosmilus)
+(Pyrritator) 4 | 16 (Pyroraptor) (Irritator)
+(Loup_d'Armbuster) 4 | 16 
+(Spinosaurus_de_Renaissance) 4 | 16 
+(Grylenken) 4 | 16 (Kelenken) (Gryposuchus)
+(Sarcosaurus) 4 | 16 
+(Beckolyth) 4 | 16 (Blonde) (Saurolyth)
+(Nyctosaurus) 4 | 16 
+(Rebel) 4 | 16 
+(Tarbognathus) 4 | 16 (Tarbosaure) (Compsognathus_Gén2)
+(Arctacles) 4 | 16 (Arctodus) (Cervalces)
+(Parasaurolophus_Lux) 4 | 16 
+(Rajatholus) 4 | 17 (Rajasaure) (Sphaerotholus)
+(Tyrannosaure_Doe) 4 | 16 
+(Gigaspikasaure) 4 | 16 (Nodopatosaure) (Amargasaure)
+(Tyrannolophosaure) 4 | 16 (T_Rex_Gén2) (Dilophosaure_Gén2)
+(Thylaconyx) 4 | 16 (Baryonyx_Gén2) (Lion_Marsupial)
+(Dilophoboa) 4 | 20 (Titanoboa) (Dilophosaure_Gén2)
+(Tyrannosaure_Buck) 4 | 16 
+(Indoraptor_Gén2) 4 | 16 (Indominus_Rex_Gén2) (Blue)
+(Angel) 4 | 16 
+(Scelidosaurus) 4 | 18 
+(Alloraptor) 4 | 16 (Allosaure_Gén2) (Delta)
+(Panthera_Blytheae) 4 | 16 
+(Rexy) 4 | 16 
+(Paramoloch) 4 | 20 (Parasaurolophus) (Stygimoloch)
+(Allosinosaure) 4 | 19 (Allosaure) (Sinocératops)
+(Targodistis) 4 | 20 (Amargocephalus) (Parasaurolophus)
+(Tryostronix) 4 | 20 (Baryonyx) (Posimetrodon)
+(Indominus_Rex) 4 | 20 (Tyrannosaure) (Vélociraptor)
+(Fukuimimus) 4 | 16 (Fukuisaurus) (Struthiomimus)
+(Aquisaurus) 4 | 16 (Aquilops) (Lystrosaurus)
+(Ardontosaurus) 4 | 20 (Argentinosaure) (Sécodontosaure)
+(Smilocephalosaurus) 4 | 16 (Smilodon) (Pachycéphalosaure)
+(Diloranosaurus) 4 | 16 (Dilophosaure) (Ouranosaure)
+(Darwezopteryx) 4 | 16 (Darwinopterus) (Hatzegopteryx)
+(Dreadactylus) 4 | 16 (Preondactylus) (Dreadnoughtus)
+(Skoolasaure) 4 | 16 (Koolasuchus) (Scolosaure)
+(Diplovenator) 4 | 16 (Diplocaulus_Gén2) (Concavenator)
+(Ankylodactylus) 4 | 16 (Preondactylus) (Ankylodicurus)
+(Ankylomoloch) 4 | 16 (Bumpy) (Stygimoloch)
+(Carnotarkus) 4 | 16 (Wuerhosaure) (Purutaurus)
+(Centroceratops) 4 | 16 (Centrosaurus) (Protocératops)
+(Keratoporcus) 4 | 16 (Archaeotherium) (Rhino_Laineux)
+(Lystrosuchus) 4 | 16 (Lystrosaurus) (Einasuchus)
+(Pierce) 4 | 16 
+(Pyrosuchus) 4 | 16 (Pyroraptor_Gén2) (Sarcorixis)
+(Rajakylosaure) 4 | 16 (Rajasaure) (Ankylosaure)
+(Koolabourgiana) 4 | 16 (Arambourgiania) (Koolasuchus_Gén2)
+(Stegodeus) 4 | 16 (Stégosaure) (Nodopatosaure)
+(T._Rex_de_Renaissance) 4 | 16 
+
+-(Scutophicyon) 4 | 0 (Amphicyon) (Scutosaurus)
+-(Shantunrax) 4 | 0 (Shantungosaurus) (Animantarx)
+-(Sinokotaraptor) 4 | 0 (Sinosauropteryx) (Dakotaraptor)
+-(Raptor_de_Renaissance) 4 | 0 
+-(Rinchicyon) 4 | 0 (Rinchenia) (Amphicyon)
+-(Nodopatotitan) 4 | 0 (Giraffatitan) (Nodopatosaure)
+-(Ptéraquetzal) 4 | 0 (Ptéranodon) (Quetzalcoatlus)
+-(Alankylosaurus) 4 | 0 (Alanqa) (Ankylosaure_Gén2)
+-(Monolométrodon) 4 | 0 (Dimétrodon_Gén2) (Monolophosaure_Gén2)
+-(Entélomouth) 4 | 0 (Entélodonte) (Mammouth_Laineux)
+-(Spinonyx) 4 | 0 (Spinosaurus_Gén2) (Baryonyx_Gén2)
+-(Skorpiodactylus) 4 | 0 (Skorpiovenator) (Dimodactylus)
+-(Spinosaurus_Gén2_de_Renaissance) 4 | 0 
+-(Ankyntrosaure) 4 | 0 (Ankylosaure) (Kentrosaure)
+-(Megamimus) 4 | 0 (Megaraptor) (Procérathomimus)
+-(Dracoceratops) 4 | 0 (Dracorex_Gén2) (Tricératops_Gén2)
+-(Spinotasuchus) 4 | 0 (Spinotahraptor) (Kaprosuchus)
+-(Ovilophomoloch) 4 | 0 (Ovilophosaurus) (Stygimoloch_Gén2)
+-(Phorusaura) 4 | 0 (Phorusrhacos) (Maiasaura)
+-(Enteloceraos) 4 | 0 (Entélochops) (Mégalocéros)
+-(Nanophosaurus) 4 | 0 (Nanotyrannus) (Edaphosaurus)
+-(Tsintamoth) 4 | 0 (Mammouth_Laineux) (Tsintaosaurus)
+-(Mammotherium) 4 | 0 (Elasmotherium) (Mammouth_Laineux)
+-(Carbotoceratops) 4 | 0 (Carbonemys) (Nasutoceratops)
+-(Dsungaia) 4 | 0 (Miragaia) (Dsungaripterus)
+-(Megalosuchus) 4 | 0 (Gorgosuchus) (Mégalosaure)
+-(Glyptoceras) 4 | 0 (Stegoceras) (Glyptodon)
+-(Edaphocevia) 4 | 0 (Inostrancevia) (Edaphosaurus)
+-(Acrocanthops) 4 | 0 (Arctops) (Acrocanthosaurus)
+-(Poukaidei) 4 | 0 (Aigle_de_Haast) (Deinonychus)
+-(Monkeydactyl) 4 | 0 
+-(Monostegotops) 4 | 0 (Stégocératops) (Monolophosaure)
+-(Dakotanops) 4 | 0 (Gorganops) (Dakotaraptor)
+-(Dodocevia) 4 | 0 (Dodo) (Inostrancevia)
+-(Eremoceros) 4 | 0 (Eremotherium) (Eucladoceros)
+-(Bajaguanodon) 4 | 0 (Edmontoguanodon) (Bajadasaurus)
+-(Coelhaast) 4 | 0 (Coelurosauravus) (Aigle_de_Haast)
+
+
+(Estemmenosuchus) 5 | 21 
+(Monkeyondactylus) 5 | 21 (Monkeydactyl) (Ankylodactylus)
+(Grypolythe) 5 | 21 (Gryposuchus) (Purrolythe)
+(Giganyx) 5 | 21 (Giganotosaurus) (Tryostronix)
+(Pantherator) 5 | 21 (Panthera_Blytheae) (Thylacotator)
+(Constrictoraptor) 5 | 24 (Dilophoboa) (Panthera)
+(Styracosaurus_Lux) 5 | 22 
+(Dracovenator) 5 | 22 
+(Artocodistis) 5 | 25 (Red) (Targodistis)
+(Nomingia) 5 | 21 
+(Ceratosaurus) 5 | 21 
+(Andrewtops) 5 | 21 (Andrewtodon) (Arctops)
+(Junior) 5 | 21 (Tyrannosaure_Buck) (Tyrannosaure_Doe)
+(Indoraptor) 5 | 21 (Indominus_Rex) (Vélociraptor)
+(Atrocimoloch) 5 | 25 (Tiger) (Paramoloch)
+
+-(Trykosaure) 5 | 0 (Tyrannosaure) (Ankyntrosaure)
+-(Smilonemys) 5 | 0 (Smilocephalosaurus) (Carbonemys)
+-(Tyrannometrodon) 5 | 0 (Rexy) (Posimetrodon)
+-(Thoradolosaure) 5 | 0 (Allosinosaure) (Tarbosaure)
+-(Diorajasaure) 5 | 0 (Rajakylosaure) (Tuojiangosaure)
+-(Spinoconstricteur) 5 | 0 (Dilophoboa) (Spinosaurus)
+-(Giganspinoceratops) 5 | 0 (Gigantspinosaurus) (Spinoceratops)
+-(Aquilosaurus) 5 | 0 (Aquicomilus) (Pachycéphalosaure)
+-(Ampelorex) 5 | 0 (Ampelosaure) (Tyrannosaure_Buck)
+-(Diloracheirus) 5 | 0 (Deinocheirus) (Diloranosaurus)
+-(Monolorhino) 5 | 0 (Rhino_Laineux) (Monolométrodon)
+-(Mammolania) 5 | 0 (Mammotherium) (Meiolania)
+-(Lystrosavis) 5 | 0 (Lystrosuchus) (Argentavis)
+-(Aquiraptor) 5 | 0 (Aquisaurus) (Graciliraptor)
+-(Segnotherisaurus) 5 | 0 (Segnoraptor) (Arctodus)
+-(Entelolania) 5 | 0 (Meiolania) (Entélomouth)
+-(Distortus_Rex) 5 | 0 
+-(Rajadotholus) 5 | 0 (Rajatholus) (Scelidosaurus)
+-(Geminititan) 5 | 0 (Diplodocus) (Koolabourgiana)
+-(Apatocératops) 5 | 0 (Nodopatotitan) (Nasutoceratops)
+-(Ardontognathus) 5 | 0 (Anurognathus) (Ardontosaurus)
+-(Mutadon) 5 | 0 
+-(Dsungascorpius) 5 | 0 (Pulmonoscorpius) (Dsungaia)
+-(Indotaurus) 5 | 0 (Carnotaure) (Indominus_Rex_Gén2)
+-(Testacornibus) 5 | 0 (Eucladoceros) (Carbotoceratops)
+-(Scorpios_Rex_Gén3) 5 | 0 (Scorpios_Rex_Gén2) (Gorgosaure)
+-(Ardentisimaxima) 5 | 0 (Brachiosaure) (Ardontosaurus)
+-(Stygidaryx) 5 | 0 (Darwezopteryx) (Stygimoloch_Gén2)
+-(Utarinex) 5 | 0 (Dracorex) (Utasinoraptor)
+-(Aenocyonyx) 5 | 0 (Loup_Sinistre) (Thylaconyx)
+-(Baryosaurus) 5 | 0 (Baryothus) (Sarcosaurus)
+-(Deinomimus) 5 | 0 (Deinotops) (Monomimus)
+-(Quetzaljara) 5 | 0 (Ptéraquetzal) (Tapejara)
+-(Ténontorex) 5 | 0 (Tyrannolophosaure) (Ténontosaure)
+-(Titanotarkus) 5 | 0 (Titanotor) (Carnotarkus)
+-(Skorpiostegotops) 5 | 0 (Skorpiodactylus) (Monostegotops)
+-(Tuoramoloch) 5 | 0 (Paramoloch) (Tuojiangosaure)
+-(Dracoceratosaurus) 5 | 0 (Dracoceratops) (Procératosaure)
+-(Erlidominus) 5 | 0 (Erlikosaure) (Indominus_Rex)
+-(Erlikospyx) 5 | 0 (Erlikosaure_Gén2) (Spinonyx)
+-(Magnapyritor) 5 | 0 (Dimétrodon) (Pyrritator)
+-(Parasauthops) 5 | 0 (Acrocanthops) (Parasaurolophus_Lux)
+-(Poukandactylus) 5 | 0 (Poukaidei) (Tupandatylus)
+-(Pterovexus) 5 | 0 (Darwinopterus) (Monomimus)
+-(Quetzorion) 5 | 0 (Tanycolagreus) (Ptéraquetzal)
+-(Pyrorixis) 5 | 0 (Pyrosuchus) (Ghost)
+-(Ovinnolophosaurus) 5 | 0 (Oviraptor_Gén2) (Tyrannolophosaure)
+-(Aerospinosaurus) 5 | 0 (Spinosaurus_de_Renaissance) (Aérotitan)
+-(Alankyloceratops) 5 | 0 (Alankylosaurus) (Tricératops)
+-(Albertocevia) 5 | 0 (Edaphocevia) (Albertosaurus)
+-(Albertospinos) 5 | 0 (Spinotasuchus) (Alankylosaurus)
+-(Allodrigues) 5 | 0 (Rodrigues_Solitaire) (Alloraptor)
+-(Antarctovenator) 5 | 0 (Diplovenator) (Antarctopelta)
+-(Arctocanis) 5 | 0 (Ailurarctos) (Loup_d'Armbuster)
+-(Compsocaulus) 5 | 0 (Compsognathus) (Diplocaulus_Gén2)
+-(Compsoraptor) 5 | 0 (Tarbognathus) (Beta)
+-(Concatosaurus) 5 | 0 (Concakuiisaurus) (Ténontosaure)
+-(Crichtomoloch) 5 | 0 (Crichtonsaurus) (Ankylomoloch)
+-(Dakotacurus) 5 | 0 (Dakotanops) (Megistocurus)
+-(Herranotor) 5 | 0 (Spinotahraptor) (Herrerasaurus)
+-(Nyctopteryx) 5 | 0 (Nyctosaurus) (Darwezopteryx)
+-(Ovylenken) 5 | 0 (Oviraptor_Gén2) (Grylenken)
+-(Phorurex) 5 | 0 (Phorusaura) (Dracorex_Gén2)
+-(Plateopikasaurus) 5 | 0 (Platéosaure) (Gigaspikasaure)
+-(Protonodon) 5 | 0 (Protocératops) (Bajaguanodon)
+-(Sarcomantarx) 5 | 0 (Sarcosaurus) (Animantarx)
+-(Skoonasaurus) 5 | 0 (Sonorasaurus) (Skoolasaure)
+-(Troodoboa) 5 | 0 (Majundaboa) (Troodon)
+-(Tyrannodactylus) 5 | 0 (Tyrannosaure_Buck) (Ankylodactylus)
+
+
+(Atromolistis) 6 | 26 (Artocodistis) (Atrocimoloch)
+
+-(Sah_Panthera) 6 | 0 (Pantherator) (Scutophicyon)
+-(Gryganyth) 6 | 0 (Giganyx) (Grypolythe)
+-(Mortem_Rex) 6 | 0 
+-(Ceramagnus) 6 | 0 
+-(Gorgotrbax) 6 | 0 
+-(Haast_Maximus) 6 | 0 
+-(Hydra_Boda) 6 | 0 
+-(Refrenantem) 6 | 0 
+-(Spinotops) 6 | 0 (Angel) (Giganspinoceratops)
+-(Thylos_Intrepidus) 6 | 0 (Moros_Intrepidus) (Thylacotator)
+-(Titanotholus) 6 | 0 (Titanotarkus) (Rajatholus)
+-(Hadros_Lux) 6 | 0 
+-(Geminideus) 6 | 0 (Geminititan) (Stegodeus)
+-(Concatoloch) 6 | 0 (Concatosaurus) (Tuoramoloch)
+-(Dilozorion) 6 | 0 (Diloracheirus) (Quetzorion)
+-(Draco_Intrepidus) 6 | 0 (Dracoceratops) (Thylos_Intrepidus)
+-(Eremocanis) 6 | 0 (Eremoceros) (Arctocanis)
+-(Glyptosavis) 6 | 0 (Glyptoceras) (Antarctovenator)
+-(Imperatosuchus) 6 | 0 
+-(Magnaraptor) 6 | 0 (Magnapyritor) (Allodrigues)
+-(Megalocevia) 6 | 0 (Megalosuchus) (Albertocevia)
+-(Monolomoth) 6 | 0 (Monolorhino) (Tsintamoth)
+-(Plateorex) 6 | 0 (Plateopikasaurus) (Ténontorex)
+-(Proto_Lux) 6 | 0 (Protonodon) (Crichtomoloch)
+-(Rajadorixis) 6 | 0 (Rajadotholus) (Pyrorixis)
+-(Skoonametrodon) 6 | 0 (Tyrannometrodon) (Skoonasaurus)
+-(Trykovenator) 6 | 0 (Trykosaure) (Antarctovenator)
+-(Alacranix) 6 | 0 
+-(Alankydactylus) 6 | 0 (Dreadactylus) (Alankyloceratops)
+-(Pteranokyrie) 6 | 0 
+-(Aquignathus) 6 | 0 (Aquiraptor) (Ardontognathus)
+-(Aquilotae) 6 | 0 (Aquilosaurus) (Panthera_Blytheae)
+-(Ankylos_Lux) 6 | 0 (Ankylomoloch) (Diorajasaure)
+-(Indochicyon) 6 | 0 (Indoraptor) (Rinchicyon)
+-(Indolycan) 6 | 0 (Aenocyonyx) (Indoraptor_Gén2)
+-(Indonemys) 6 | 0 (Indominus_Rex) (Smilonemys)
+-(Kentrorex) 6 | 0 (Pierce) (Thoradolosaure)
+-(Megatyrannus) 6 | 0 (Megamimus) (Nanophosaurus)
+-(Nominrex) 6 | 0 (Phorurex) (Nomingia)
+-(Arcovasilas) 6 | 0 (Arctacles) (Testacornibus)
+-(Atcocomaxima) 6 | 0 (Constrictoraptor) (Ardentisimaxima)
+-(Baryotor) 6 | 0 (Megamimus) (Baryosaurus)
+-(Becklejara) 6 | 0 (Beckolyth) (Quetzaljara)
+-(Becklerizaurus) 6 | 0 (Becklophosaurus) (Segnotherisaurus)
+-(Centrolophus_Lux) 6 | 0 (Centroceratops) (Parasauthops)
+-(Ceranosaurus) 6 | 0 (Rebel) (Skoonasaurus)
+-(Cerastegotops) 6 | 0 (Skorpiostegotops) (Ceratosaurus)
+-(Draco_Lux) 6 | 0 (Utarinex) (Styracosaurus_Lux)
+-(Fukuitops) 6 | 0 (Fukuimimus) (Deinomimus)
+-(Compsovenator) 6 | 0 (Compsoraptor) (Dracovenator)

@@ -16,10 +16,10 @@ import perso.logic.Creature;
  * <p>
  * Le format attendu pour chaque ligne de la ressource :
  * <ul>
- *   <li>(Nom) rareté (Parent1) (Parent2)  — pour une créature ayant des parents</li>
- *   <li>(Nom) rareté                      — pour une créature sans parents (rarete sur 1 caractère)</li>
+ *   <li>(Nom) niveau | rareté (Parent1) (Parent2)  — pour une créature ayant des parents</li>
+ *   <li>(Nom) niveau | rareté                      — pour une créature sans parents (rarete sur 1 caractère)</li>
  * </ul>
- * Les noms doivent être entourés de parenthèses, la rareté est un entier entre 1 et 6.
+ * Les noms doivent être entourés de parenthèses, la rareté est un entier entre 1 et 6, et le niveau est un entier entre 1 et 35.
  * </p>
  */
 public class Import {
@@ -74,36 +74,56 @@ public class Import {
             if (s.trim().isEmpty()) {
                 continue; // ignore les lignes vides
             }
+            //Vérifie si c'est une créature Manquante
+            boolean manquante = s.substring(0,1).equals("-");
+            if (manquante){
+                s = s.substring(1);
+            }
             //Partie Nom de la créature
             int pos = trouveEspace(s);
             String nomPart = isoleNom(s.substring(0, pos));
             s = s.substring(pos + 1);
 
             //Partie Rareté de la créature
+            pos = trouveEspace(s);
+            int raretePart = Integer.parseInt(s.substring(0, pos));
+            if(raretePart < 1 || raretePart > 6){
+                throw new IllegalArgumentException("Format de la rareté invalide : " + raretePart);
+            }
+            s = s.substring(pos+1);
+            //Test si le format entre la rareté et le niveau est correct
+            if (!s.startsWith("|")){
+                throw new IllegalArgumentException("Format Incorrect, \"|\" attendu entre la rareté et le niveau : \"" + s + "\"");
+            }  
+            s = s.substring(2);
+            //Partie Niveau de la créature
+            pos = trouveEspace(s);
+            int niveauPart = Integer.parseInt(s.substring(0, pos));
+            if ((niveauPart<1 || niveauPart>35) && !manquante){
+                throw new IllegalArgumentException("Niveau incorrect : " + s);
+            }
+            s = s.substring(pos + 1);
+
             Creature creature;
-            if(s.length() == 1){
-                if(Integer.parseInt(s) < 0 || Integer.parseInt(s) > 5){
-                    throw new IllegalArgumentException("Format de la rareté invalide : " + s);
+            if(s.length() == 0){
+                if(manquante){
+                    creature = new Creature(nomPart, raretePart);
+                } else {
+                    creature = new Creature(nomPart, raretePart, niveauPart);
                 }
-                creature = new Creature(nomPart, Integer.parseInt(s));
-            } else {
-                pos = trouveEspace(s);
-                String raretePart = s.substring(0, pos);
-                int rarete = Integer.parseInt(raretePart);
-                if(rarete < 0 || rarete > 5){
-                    throw new IllegalArgumentException("Format de la rareté invalide : " + raretePart);
-                }
-                s = s.substring(pos + 1);
-                
+            } else {                
                 //Partie Parent1 de la créature
                 pos = trouveEspace(s);
                 String parent1Part = isoleNom(s.substring(0, pos));
                 Creature parent1 = bestiaire.getCreatureByName(parent1Part);
-
                 //Partie Parent2 de la créature
                 String parent2Part = isoleNom(s.substring(pos + 1));
                 Creature parent2 = bestiaire.getCreatureByName(parent2Part);
-                creature = new Creature(nomPart, rarete, parent1, parent2);
+                if(manquante){
+                    creature = new Creature(nomPart, raretePart, parent1, parent2);
+                } else {
+                    creature = new Creature(nomPart, raretePart, niveauPart, parent1, parent2);
+                }
             }
             bestiaire.addCreature(creature);
         }
@@ -126,7 +146,7 @@ public class Import {
      */
     private static String isoleNom(String s){
         if (!s.startsWith("(") || !s.endsWith(")")) {
-                    throw new IllegalArgumentException("Format du nom invalide : " + s);
+                    throw new IllegalArgumentException("Format du nom invalide : \"" + s + "\"");
                 }
                 return retireParentheses(s);
     }
@@ -141,7 +161,7 @@ public class Import {
     private static int trouveEspace(String s) {
         int pos = s.indexOf(' ');
         if (pos == -1) {
-            throw new IllegalArgumentException("Format de ligne invalide : " + s);
+            throw new IllegalArgumentException("Format de ligne invalide : \"" + s + "\"");
         }
         return pos;
     }
